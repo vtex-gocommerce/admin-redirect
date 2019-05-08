@@ -1,2 +1,3 @@
 # admin-redirect
-Redirect index to admin
+
+Redirect index to admin.

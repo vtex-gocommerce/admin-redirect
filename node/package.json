@@ -1,0 +1,19 @@
+{
+  "license": "ISC",
+  "dependencies": {
+    "lint": "^1.1.2",
+    "route-parser": "^0.0.5"
+  },
+  "devDependencies": {
+    "@vtex/api": "^3.12.1",
+    "@types/koa": "^2.0.48",
+    "@types/node": "^7.0.8",
+    "@types/route-parser": "^0.1.1",
+    "tslint": "^5.11.0",
+    "tslint-config-vtex": "^2.0.0",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit && tslint -c tslint.json './**/*.ts'"
+  }
+}

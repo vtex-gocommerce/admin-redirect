@@ -1,0 +1,11 @@
+{
+  "memory": 1024,
+  "ttl": 660,
+  "timeout": 660,
+  "routes": {
+    "redirectIndex": {
+      "path": "/",
+      "public": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "extends": "tslint-config-vtex",
+  "rules": {
+    "trailing-comma": [
+      true,
+      {
+        "multiline": {
+          "objects": "never",
+          "arrays": "never",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        },
+        "esSpecCompliant": true
+      }
+    ]
+  }
+}

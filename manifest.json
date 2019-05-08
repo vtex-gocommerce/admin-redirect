@@ -1,0 +1,19 @@
+{
+  "name": "admin-redirect",
+  "vendor": "gocommerce",
+  "version": "1.0.0",
+  "title": "Redirect",
+  "description": "Redirect to admin",
+  "registries": ["smartcheckout", "gocommerce"],
+  "mustUpdateAt": "2019-22-01",
+  "dependencies": {
+
+  },
+  "builders": {
+    "node": "4.x"
+  },
+  "policies": [
+
+  ],
+  "credentialType": "absolute"
+}
